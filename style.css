@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    box-sizing: border-box;
+    font-size:15px;
+    overflow-x:hidden;
+}
+h1{
+    font-family: 'Alata', sans-serif;
+    
+}
+h2,h3,p,.see{
+    font-family: 'Josefin Sans', sans-serif;
+}
+.header
+{
+    margin:0%;
+    background-image: url("images/desktop/image-hero.jpg");
+    height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    background-size:cover;
+}
+.slogan
+{
+    padding:5%;
+    color:#fff;
+    font-size: 3.5rem;
+    width:25%;
+    border:3px solid #fff;
+    border-radius:1rem;
+    margin-left :22px; 
+}
+nav ul{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: flex-start;
+    align-items:flex-start;
+    width: 50%;
+    list-style-type:none;
+    margin-left:45%;
+    opacity: 0.7;
+
+}
+nav ul li
+{
+    color:#fff;
+    font-size: 2rem;
+    font-weight:bolder;
+}
+
+nav ul li a
+{
+     display: block;
+     padding: 0.1em;
+     text-decoration: none;
+     color: #fff;
+           
+}
+.middle-section{
+    position: relative;
+    width:600px;
+    margin:200px 0 0 100px; 
+}
+
+.vr-boy{
+    
+    width: 100%;
+}
+
+#part 
+{
+  position:absolute;
+  left: 500px;
+  width: 300px;
+  top:220px;
+  background-color: #fff;
+  padding: 0 100px 0 200px;
+}
+
+.title{
+    font-size: 35px;
+    text-transform: uppercase;
+
+}
+
+.details{
+ position: relative;
+ font-size:18px;
+ word-wrap:break-word;
+ width:300px;
+ text-align: justify;
+
+ 
+}
+.end-portion{
+    margin:100px 0 0 0;
+    position: relative;
+    height:50%;
+}
+ .our{
+     font-weight: bolder;
+     font-size:2.5rem;
+     margin-left:7.5%;
+ }
+ .see{
+     position: absolute;
+     right:160px;
+     top: -5px;
+     padding:10px 50px;
+     font-size:1.2rem;
+
+ }
+ .end__first{
+ margin-bottom: 2rem;
+ }
+.container{
+    
+     display:grid;
+     grid-template-rows:400px  400px;
+     grid-template-columns:250px 250px 250px 250px;
+     grid-gap:50px;
+    justify-content: center;
+    margin: 0 2% 0 0;
+}
+.box{
+     position: relative;       /*Relative added on each boxes */
+     border-radius: 10px;
+}
+.box h3{
+    color:#fff;
+    text-align: center;
+    padding:0 40px;
+    margin:0 auto;
+    font-size:2rem;
+    position:absolute;      /*absolute the h3 text */
+    top:300px;
+}
+    
+.image_class{
+    width: 100%;
+    height:100%;
+    object-fit:cover;
+}
+
+.space{
+    height: 150px;;
+}
+
+.footer-section
+{
+    background-color:#000;
+    color:#fff;
+    height: 20vh;
+}
+.footer__name{
+ font-size: 1.5rem;
+}
+.footer-section nav li{
+    font-size:1.2rem;
+}
+ 
+ @media screen(max-width: 500px){
+    body{
+        box-sizing: border-box;
+        font-size:15px;
+        overflow-x:hidden;
+    }
+ }
